@@ -38,14 +38,16 @@ li{
 aside{
     margin-right: 44px;
     width: 140px;
+    display: flex;
+    flex-direction: column;
 }
 .logo{
     margin: 0 10px;
 }
 .aside-item{
     width: 100%;
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
     margin-bottom: 35px;
 }
 .item-link{
@@ -57,10 +59,28 @@ aside{
     color: #34ACA7;
     display: flex;
     align-items: center;
-
+    /* background: url(./img/about.svg) no-repeat; */
+    background-position: left;
+    background-size: 32px;
+    height: 32px;
+}
+.taste{
+    background: url(./img/tastemakers.svg) no-repeat;
+}
+.blog{
+    background: url(./img/blog.svg) no-repeat;
+}
+.list{
+    background: url(./img/theAList.svg) no-repeat;
+}
+.contribure{
+    background: url(./img/contribure.svg) no-repeat;
+}
+.about{
+    background: url(./img/about.svg) no-repeat;
 }
 .item-link > span{
-    margin-left: 15px;
+    margin-left: 45px;
 
 }
 .aside-title{
