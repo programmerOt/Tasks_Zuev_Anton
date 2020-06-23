@@ -280,13 +280,16 @@ footer{
 .footer-links>a{
     font-size: 12px;
     line-height: 12px;
-    letter-spacing: -0.02em;
     color: #34ACA7;
-    border-right: 1px solid #E5E5E5;
+    /* border-right: 1px solid #E5E5E5; */
     padding: 4px;
+    padding-right: 6px;
+    background: url(./icons/bor-right.svg) no-repeat center right;
 }
+
+
 .footer-links>a:last-of-type{
-    border-right: none
+    background: none
 }
 .footer-links>p{
     font-size: 12px;
