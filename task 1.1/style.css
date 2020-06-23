@@ -59,25 +59,25 @@ aside{
     color: #34ACA7;
     display: flex;
     align-items: center;
-    /* background: url(./img/about.svg) no-repeat; */
+
     background-position: left;
     background-size: 32px;
     height: 32px;
 }
 .taste{
-    background: url(./img/tastemakers.svg) no-repeat;
+    background: url(./icons/tastemakers.svg) no-repeat;
 }
 .blog{
-    background: url(./img/blog.svg) no-repeat;
+    background: url(./icons/blog.svg) no-repeat;
 }
 .list{
-    background: url(./img/theAList.svg) no-repeat;
+    background: url(./icons/theAList.svg) no-repeat;
 }
 .contribure{
-    background: url(./img/contribure.svg) no-repeat;
+    background: url(./icons/contribure.svg) no-repeat;
 }
 .about{
-    background: url(./img/about.svg) no-repeat;
+    background: url(./icons/about.svg) no-repeat;
 }
 .item-link > span{
     margin-left: 45px;
