@@ -63,19 +63,19 @@ aside{
     height: 32px;
 }
 .taste{
-    background: url(./icons/tastemakers.svg) no-repeat;
+    background: url(../icons/tastemakers.svg) no-repeat;
 }
 .blog{
-    background: url(./icons/blog.svg) no-repeat;
+    background: url(../icons/blog.svg) no-repeat;
 }
 .list{
-    background: url(./icons/theAList.svg) no-repeat;
+    background: url(../icons/theAList.svg) no-repeat;
 }
 .contribure{
-    background: url(./icons/contribure.svg) no-repeat;
+    background: url(../icons/contribure.svg) no-repeat;
 }
 .about{
-    background: url(./icons/about.svg) no-repeat;
+    background: url(../icons/about.svg) no-repeat;
 }
 .item-link > span{
     margin-left: 45px;
