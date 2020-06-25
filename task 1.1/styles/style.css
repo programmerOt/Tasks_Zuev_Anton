@@ -8,6 +8,7 @@ body{
     font-family: "Arial", sans-serif;
     font-style: normal;
     color: #000;
+    min-width: 700px;
 }
 a{
     text-decoration: none; 
@@ -117,9 +118,13 @@ main{
 }
 /* banner */
 .banner{
-    position: relative;
     width: 896px;
+    /* height: 445px; */
+    margin-bottom: 30px;
+}
+.banner-wrapper{
     height: 445px;
+    position: relative;
 }
 .banner-image{
     width: 100%;
@@ -151,14 +156,13 @@ main{
     z-index: 1;
     position: absolute;
     left: 0;
-    top: 285px;
+    bottom: 90px;
 }
 /* tabs */
 .tabs{
     display: flex;
     flex-wrap: nowrap;
-    color: #34ACA7;
-    margin-bottom: 30px;
+    color: #34ACA7; 
 }
 .tab{
     flex-basis: 25%;
@@ -192,6 +196,9 @@ main{
     padding: 10px 18px;
     margin-bottom: 29px;
 }
+.subscribe-description{
+    display: flex;
+}
 form{
     display: flex;
 }
@@ -200,7 +207,6 @@ form{
     font-size: 14px;
     line-height: 16px;
     margin: 0 24px 0 16px; 
-    width: 530px;
 }
 input{
     border: 1px solid #E5E5E5;
@@ -227,6 +233,8 @@ input:placeholder-shown{
     flex-wrap: wrap;
 }
 .card{
+    display: flex;
+    flex-direction: column;
     flex-basis: 207px;
 }
 .card>a{

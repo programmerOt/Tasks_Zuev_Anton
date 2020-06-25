@@ -1,0 +1,83 @@
+@media screen and (max-width: 768px){
+    .container{
+        min-width: 561px;
+    }
+    aside{
+        width: 561px;
+        margin: 0 auto 30px ;
+    }
+    .logo{
+        margin: 0;
+    }
+    .aside-item{
+        width: 100px;
+    }
+    .aside-item:last-child{
+        width: 41px;
+    }
+
+    .item-link{
+        background: none;
+    }
+    .item-link>span{
+        margin: 0 auto;
+        align-self: center;
+    }
+    main{
+        width: 545px;
+        margin: 0 auto;
+    }
+    .banner{
+        height: 100%;
+    }
+    .banner-wrapper{
+        height: 353px;
+    }
+    .banner-image{
+        height: 353px;
+    }
+    .banner-text{
+        bottom: 0;
+        width: 100%;
+    }
+    .banner-header{
+        width: 100%;
+        opacity: 0.6;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-align: start;
+    }
+    .banner-description{
+        width: 100%;
+        text-align: start;
+        padding-left: 25px ;
+    }
+    .tabs{
+        display: none;
+    }
+    .subscribe{
+        flex-wrap: wrap;
+    }
+    .subscribe-text{
+        margin-right: 0;
+    }
+    form{
+        margin: 15px 0;
+    }
+    input{
+        width: 394px;
+    }
+    .card{
+        flex-basis: 45%;
+        margin-bottom: 15px;
+        min-height: 336px;
+    }
+    .card-image{
+        height: 150px;
+    }
+    .card-description{
+        flex: 1 1 auto;
+    }
+    footer{
+        max-width: 560px;
+    }
+}

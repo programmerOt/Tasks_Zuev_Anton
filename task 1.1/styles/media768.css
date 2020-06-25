@@ -32,7 +32,10 @@
     .aside-friends{
         display: none;
     }
+    main{
+        width: 710px;
+    }
     footer{
-        width: 716px;
+        max-width: 716px;
     }
 }
