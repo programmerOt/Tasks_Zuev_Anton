@@ -14,7 +14,6 @@ a{
     cursor: pointer;
 }
 
-
 a:hover{
     text-decoration: underline;
 }
@@ -27,7 +26,6 @@ button{
 li{
     list-style: none;
 }
-
 
 /* container */
 .container{
@@ -60,7 +58,6 @@ aside{
     color: #34ACA7;
     display: flex;
     align-items: center;
-
     background-position: left;
     background-size: 32px;
     height: 32px;
