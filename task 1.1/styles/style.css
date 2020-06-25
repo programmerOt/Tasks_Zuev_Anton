@@ -58,8 +58,6 @@ aside{
     color: #34ACA7;
     display: flex;
     align-items: center;
-    background-position: left;
-    background-size: 32px;
     height: 32px;
 }
 .taste{
@@ -286,7 +284,7 @@ footer{
     color: #34ACA7;
     padding: 4px;
     padding-right: 6px;
-    background: url(./icons/bor-right.svg) no-repeat center right;
+    background: url(../icons/bor-right.svg) no-repeat center right;
 }
 
 

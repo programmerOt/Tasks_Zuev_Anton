@@ -1,0 +1,38 @@
+@media screen and (max-width: 992px){
+    .container{
+        width: 710px;
+        flex-direction: column;
+    }
+    aside{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .aside-menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .aside-item{
+        width: 100px;
+        margin: 0;
+    }
+    .item-link{
+        height: 62px;
+        background-position: top center;
+        flex: 1 1 auto;
+    }
+    .item-link>span{
+        margin: 0 auto;
+        align-self: flex-end;
+    }
+    .aside-tweet{
+        display: none;
+    }
+    .aside-friends{
+        display: none;
+    }
+    footer{
+        width: 716px;
+    }
+}
