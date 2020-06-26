@@ -1,0 +1,28 @@
+{
+  "name": "tasks_zuev_anton",
+  "version": "1.0.0",
+  "description": "Tasks for frontend school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmerOt/Tasks_Zuev_Anton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programmerOt/Tasks_Zuev_Anton/issues"
+  },
+  "homepage": "https://github.com/programmerOt/Tasks_Zuev_Anton#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "dependencies": {}
+}
