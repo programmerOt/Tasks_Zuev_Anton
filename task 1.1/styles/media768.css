@@ -1,6 +1,6 @@
 @media screen and (max-width: 992px){
     .container{
-        width: 710px;
+        max-width: 710px;
         flex-direction: column;
     }
     aside{
@@ -11,10 +11,11 @@
     }
     .aside-menu{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; 
+        flex: 1 1 auto;
     }
     .aside-item{
-        width: 100px;
+        /* width: 100px; */
         margin: 0;
     }
     .item-link{
@@ -33,7 +34,7 @@
         display: none;
     }
     main{
-        width: 710px;
+        max-width: 710px;
     }
     footer{
         max-width: 716px;

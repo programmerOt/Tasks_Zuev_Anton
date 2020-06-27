@@ -1,9 +1,9 @@
 @media screen and (max-width: 1176px){
     .container{
-        width: 896px;
+        max-width: 896px;
     }
     main{
-        width: 712px;
+        max-width: 712px;
     }
     .banner{
         width: 100%;

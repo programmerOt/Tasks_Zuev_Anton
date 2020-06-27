@@ -24,13 +24,14 @@ function sync(done) {
 }
 
 function browserReload(done) {
-	browserSync.reload()
-	done()
+	browserSync.reload();
+	done();
 }
 
 function watchFile() {
 	gulp.watch('./task 1.1/styles/*.css', css_style);
 	gulp.watch('./**/*.html', browserReload);
+	gulp.watch('./task 1.1/styles/*.css',browserReload)
 }
 
  gulp.task('default', gulp.parallel(sync, watchFile))

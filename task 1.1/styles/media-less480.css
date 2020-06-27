@@ -1,6 +1,6 @@
 @media screen and (max-width: 480px){
     aside{
-        padding:0 20px ;
+        padding:0 ;
         width: 100%;
         flex-direction: column-reverse;
         flex-wrap: wrap;
@@ -9,10 +9,7 @@
         align-self: center;
     }
     main{
-        width: 100%;
-    }
-    input{
-       min-width: 100%;
+        max-width: 100%;
     }
     .cards{
         justify-content: center;
