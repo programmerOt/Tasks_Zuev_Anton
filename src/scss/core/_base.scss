@@ -29,6 +29,6 @@ li{
 
 .container{
     max-width: 1080px;
-    display: flex;
+    @include row;
     margin: 46px auto 0 auto;
 }

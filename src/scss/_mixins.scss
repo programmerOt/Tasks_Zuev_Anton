@@ -1,0 +1,7 @@
+@mixin row {
+    display: flex;
+}
+@mixin col {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,16 +1,16 @@
 .subscribe{
     border-top: 1px dashed #E5E5E5;
     border-bottom: 1px dashed #E5E5E5;
-    display: flex;
+    @include row;
     align-items: center;
     padding: 10px 18px;
     margin-bottom: 29px;
 }
 .subscribe-description{
-    display: flex;
+    @include row;
 }
 form{
-    display: flex;
+    @include row;
 }
 .subscribe-text{
     font-style: italic;

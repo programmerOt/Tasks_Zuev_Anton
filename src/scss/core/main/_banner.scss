@@ -42,7 +42,7 @@
 }
 /* tabs */
 .tabs{
-    display: flex;
+    @include row;
     flex-wrap: nowrap;
     color: #34ACA7; 
 }

@@ -1,11 +1,10 @@
 .cards{
-    display: flex;
+    @include row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .card{
-    display: flex;
-    flex-direction: column;
+    @include col;
     flex-basis: 207px;
 }
 .card>a{
