@@ -8,13 +8,13 @@
     flex-basis: 207px;
 }
 .card>a{
-    color: #34ACA7; 
+    color: $main-color; 
 }
 .card:last-child{
     margin-right: 0;
 }
 .card-image{
-    border: 1px solid #E5E5E5;
+    border: $border-solid;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
     height: 143px;
     margin-bottom: 11px;
@@ -29,7 +29,7 @@
     font-size: 16px;
     line-height: 21px;
     letter-spacing: -0.02em;
-    color: #34ACA7;
+    color: $main-color;
     margin-bottom: 9px;
 }
 .card-description{
@@ -45,5 +45,5 @@
     color: #E5E5E5;
 }
 .card-read{
-    color: #34ACA7; 
+    color: $main-color; 
 }
