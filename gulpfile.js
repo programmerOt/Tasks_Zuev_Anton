@@ -7,17 +7,17 @@ var gulp = require('gulp'),
 
 
 function css_style(done) {
-	gulp.src('./task 1.1/styles/*.css')
-		.pipe(concatCss("style.css"))
-		.pipe(gulp.dest('./css/'))
-		.pipe(browserSync.stream())
-	done();
+	gulp.src('./src/scss/**/*.scss') 
+	.pipe(sourcemaps.init())
+		.pipe(sass())
+		.pipe(gulp.dest('src/build/'))
+		.pipe(browserSync.stream());
 }
 
 function sync(done) {
 	browserSync.init({
 		server: {
-			baseDir: "./task 1.1/"
+			baseDir: "./src/"
 		},
 		port: 3000
 	})
@@ -29,9 +29,8 @@ function browserReload(done) {
 }
 
 function watchFile() {
-	gulp.watch('./task 1.1/styles/*.css', css_style);
+	gulp.watch('./src/scss/**/*.scss', css_style);
 	gulp.watch('./**/*.html', browserReload);
-	gulp.watch('./task 1.1/styles/*.css',browserReload)
 }
 
  gulp.task('default', gulp.parallel(sync, watchFile))
