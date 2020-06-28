@@ -21,7 +21,7 @@
 		margin: 0 auto;
 	}
 	.banner {
-		height: 100%;
+		max-height: 100%;
 	}
 	.banner-wrapper {
 		height: 353px;
@@ -34,7 +34,7 @@
 		width: 100%;
 	}
 	.banner-header {
-		width: 100%;
+		width: 100%; 
 		opacity: 0.6;
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 		text-align: start;
