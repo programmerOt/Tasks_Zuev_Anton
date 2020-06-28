@@ -27,21 +27,27 @@ aside {
 		margin-left: 45px;
 	}
 }
-.taste {
-	background: url(../icons/tastemakers.svg) no-repeat;
+@each $name in taste, blog, list, contribure, about {
+	.#{$name}{
+		background: url(../icons/#{$name}.svg) no-repeat;
 }
-.blog {
-	background: url(../icons/blog.svg) no-repeat;
-}
-.list {
-	background: url(../icons/theAList.svg) no-repeat;
-}
-.contribure {
-	background: url(../icons/contribure.svg) no-repeat;
-}
-.about {
-	background: url(../icons/about.svg) no-repeat;
-}
+	}
+
+// .taste {
+// 	background: url(../icons/tastemakers.svg) no-repeat;
+// }
+// .blog {
+// 	background: url(../icons/blog.svg) no-repeat;
+// }
+// .list {
+// 	background: url(../icons/theAList.svg) no-repeat;
+// }
+// .contribure {
+// 	background: url(../icons/contribure.svg) no-repeat;
+// }
+// .about {
+// 	background: url(../icons/about.svg) no-repeat;
+// }
 .aside-title {
 	padding: 5px 0;
 	font-family: Verdana;
