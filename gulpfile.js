@@ -15,7 +15,6 @@ function css_style(done) {
 		.pipe(autoprefixer({overrideBrowserlist: ['last 2 versions']}))
 		.pipe(gulp.dest('src/build/'))
 		.pipe(browserSync.stream());
-		done();
 }
 
 function sync(done) {
