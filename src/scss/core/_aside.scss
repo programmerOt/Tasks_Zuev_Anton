@@ -24,7 +24,7 @@ aside {
 	height: 32px;
 	>span {
 		margin-left: 45px;
-	}
+	} 
 }
 @each $name in taste, blog, list, contribure, about {
 	.#{$name}{

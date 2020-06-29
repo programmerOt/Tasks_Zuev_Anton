@@ -15,6 +15,7 @@ function css_style(done) {
 		.pipe(autoprefixer({overrideBrowserlist: ['last 2 versions']}))
 		.pipe(gulp.dest('src/build/'))
 		.pipe(browserSync.stream());
+		done();
 }
 
 function sync(done) {
@@ -34,6 +35,7 @@ function browserReload(done) {
 function watchFile() {
 	gulp.watch('./src/scss/**/*.scss', css_style);
 	gulp.watch('./**/*.html', browserReload);
+	gulp.watch('./src/scss/**/*.scss', browserReload);
 }
 
  gulp.task('default', gulp.parallel(sync, watchFile))

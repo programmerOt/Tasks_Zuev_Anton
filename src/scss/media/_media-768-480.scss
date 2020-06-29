@@ -53,12 +53,18 @@
 	.subscribe-text {
 		margin-right: 0;
 	}
+	.subscribe-description{
+		max-width: 100%;
+	}
 	form {
 		margin: 15px 0;
 		width: 100%;
 	}
 	input {
 		width: 100%;
+	}
+	.subscribe-button{
+		min-width: 80px;
 	}
 	.card {
 		flex-basis: 45%;
